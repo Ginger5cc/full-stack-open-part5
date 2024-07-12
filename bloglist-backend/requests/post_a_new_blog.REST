@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs/ HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ikp1bm8gV29uZyIsImlkIjoiNjY4YzI0ZmY2MTY5N2RlNjMwYTJhMmY1IiwiaWF0IjoxNzIwNTU2OTEyLCJleHAiOjE3MjA1NjA1MTJ9.S4fGFNZT-KshfffEpkF-GmkVXOEBSmFc0VJUCmpWFJk
+
+{
+    "title": "Blog 8",
+    "author": "HappyWorld",
+    "url": "www.blog8.com", 
+    "likes" : 8
+}
